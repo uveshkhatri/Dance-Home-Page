@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Merriweather';
+    background-color: #F5F2F0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section {
+    width: 30%;
+    height: 100%;
+}
+
+.left {
+    width: 100%;
+}
+
+
+/* right-section  */
+.right-section {
+    width: 65%;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.logo {
+    width: 100px;
+    position: relative;
+    right: 200px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+}
+
+.lists {
+    padding: 10px 30px;
+    font-size: 1.2em;
+}
+
+.lists::before {
+    content: "";
+    border-bottom: 1px solid black;
+    width: 450px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    right: 600px
+}
+
+.right-1 {
+    display: flex;
+    justify-content: inherit;
+    margin: 20px 50px;
+}
+
+.sr1 {
+    font-size: 4em;
+    width: 55%;
+}
+
+.heading-1 {
+    color: #F5F2F0;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
+
+.heding-2 {
+    position: relative;
+    top: -50px;
+    left: 150px;
+    color: #353333;
+}
+
+.sr2 {
+    width: 20%;
+    position: relative;
+    top: 200px;
+}
+
+.sr2 p {
+    font-size: 2em;
+    color: #818181;
+}
+
+.src3-icon {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    left: 200px;
+}
+
+.icons {
+    margin: 10px 0px;
+}
+
+/* button  */
+.right-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.main-btn {
+    background-color: #353333;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 15px 70px;
+    border: none;
+}
+
+/* bottom section  */
+
+.buttom-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 10px 50px;
+}
+
+.skills {
+    font-size: 1.2em;
+}
+
+.skill {
+    margin: 20px 0px;
+}
+
+.buttom-center h1 {
+    font-size: 5em;
+    margin-top: -40px;
+    margin-bottom: 10px;
+}
+
+.buttom-center p {
+    font-weight: 500;
+}
+
+.buttom-center img {
+    position: relative;
+    top: 20px;
+    width: 300px;
+    height: 120px
+}
+
+.down-earo {
+    transform: rotate(270deg);
+
+}
+
+.down-img {
+    height: 100px;
+    position: relative;
+    top: 60px;
+    right: 50px;
+}
